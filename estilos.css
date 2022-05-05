@@ -1,0 +1,40 @@
+#principalName{
+    color: black;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+}
+.divFull {
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+    text-align: center;
+    background-color: blue;
+
+}
+#inputURL{
+    display: block;
+    margin: auto;
+    margin-bottom:15px;
+    padding: 10px;
+}
+.buttonStyles{
+    margin: auto;
+    display: block;
+    margin-bottom:15px;
+}
+#showData{
+    margin: auto;
+    display: block;
+    
+}
+
+#inputURL[type=text] {
+    transition: width 0.4s ease-in-out;
+  }
+  
+#inputURL[type=text]:focus {
+    width: 100%;
+  }
